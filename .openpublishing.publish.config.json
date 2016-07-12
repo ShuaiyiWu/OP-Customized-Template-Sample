@@ -37,7 +37,11 @@
     {
       "repo_setup": [],
       "docset_postbuild": [],
-      "docset_prebuild": [],
+      "docset_prebuild": [
+        {
+          "task": "Task_customized_template"
+        }  
+      ],
       "docset_cleanup": [],
       "repo_cleanup": []
     }
