@@ -14,32 +14,12 @@
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
-      }
+      },
+      "build_entry_point": "op"
     }
   ],
-  "skip_source_output_uploading": false,
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "dependent_repositories": [],
-  "customized_task_definition": [
-    {
-      "Task_customized_template": {
-        "type": "nuget",
-        "id": "op-sample-template",
-        "nuget_feed": "https://www.myget.org/F/op-customized-template-sample/api/v2",
-        "version": "1.0.2",
-        "script": "tools/entry_point.ps1",
-        "target_framework": "net45"
-      }
-    }
-  ],
-  "customized_tasks": [
-    {
-      "repo_setup": [],
-      "docset_postbuild": [],
-      "docset_prebuild": [],
-      "docset_cleanup": [],
-      "repo_cleanup": []
-    }
-  ]
+  "skip_source_output_uploading": false,
+  "dependent_repositories": []
 }
